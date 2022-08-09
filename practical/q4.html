@@ -1,0 +1,75 @@
+<!-- Write an HTML program to design a form which should allow entering your personal
+data
+ (Hint: make use of text field, password field, e-mail, lists, radio buttons,
+radioes, submit button) -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Question number 4</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+		body {
+			font-family: 'Montserrat', sans-serif;
+		 	padding: 20px;
+		}
+		input {
+			font-weight: bold; 
+			font-family: 'Montserrat', sans-serif;
+			border-radius: 5px;
+			border: 1px solid dimgray;
+			margin: 5px;
+			padding: 8px;
+		}
+		button {
+			background-color:black ;
+			color: white;
+			font-size: 15px;
+			border-radius: 2px;
+			margin: 5px;
+			padding: 8px 0px;
+			font-family: 'Montserrat', sans-serif;
+		}
+	</style>
+</head>
+<body>
+
+	<h3>Question 4 Form</h3>
+	<form>
+		<input type="name" name="name" placeholder="Full Name"><br>
+		<input type="email" name="email" placeholder="Email"><br>
+		<input type="password" name="password" placeholder="Password"><br>
+		<input type="password" name="repasswrd" placeholder="Re-enter Password"><br>
+		
+		<h4>Gender</h4>
+		<div>
+		  <input type="radio" id="male" name="gender" value="m">
+		  <label for="gender"> Male</label><br>
+		  <input type="radio" id="female" name="gender" value="f">
+		  <label for="gender"> Female</label><br>
+		  <input type="radio" id="other" name="gender" value="o">
+		  <label for="gender"> Other</label><br>
+
+		</div>
+		
+		<h4>Favourite Language</h4>
+
+	 	<div>
+			<input type="checkbox" id="html" name="fav_language" value="HTML">
+			<label for="html">HTML</label><br>
+			<input type="checkbox" id="css" name="fav_language" value="CSS">
+			<label for="css">CSS</label><br>
+			<input type="checkbox" id="javascript" name="fav_language" value="JavaScript">
+			<label for="javascript">JavaScript</label>
+		</div>		
+		
+		
+
+
+		<button type="submit" style="padding:10px">Submit</button>
+	
+	</form>
+
+</body>
+</html>

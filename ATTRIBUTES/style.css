@@ -1,0 +1,16 @@
+
+body {
+	background-color: green;
+}
+
+/*id = # , class = . */
+
+#menu {
+	background-color: white;
+/*	display: flex;
+	flex-direction: column;*/
+}
+
+.content {
+	
+}
